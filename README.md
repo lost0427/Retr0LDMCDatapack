@@ -1,6 +1,8 @@
 # ld数据包 - Retrieve0
 本数据包添加了一些特殊物品
+
 物品介绍：
+
 金/银/铜牌： /loot give @s loot ldmc:gold_medal 只能通过命令得到，右键可以戴在头上,但是召唤某种宠物的功能没有了
 
 
