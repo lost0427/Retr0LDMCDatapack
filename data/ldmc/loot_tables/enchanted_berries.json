@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "千万不要放在副手食用！",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "新鲜可口！甜浆果总是这么想"
+                },
+                {
+                  "text": "可玩家只是在乎补充多少饱食度"
+                },
+                {
+                  "text": "根本不会注意它，直到那一天发光的灵动甜浆果出现了"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "灵动甜浆果",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 777
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:infinity"
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

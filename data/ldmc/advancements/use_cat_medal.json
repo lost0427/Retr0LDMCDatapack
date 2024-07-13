@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "use_cat_medal": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:enchanted_golden_apple",
+          "components": {
+            "minecraft:custom_model_data": 776
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ldmc:effects/cat_medal"
+  }
+}

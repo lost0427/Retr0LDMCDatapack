@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "use_bronze_medal": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:enchanted_golden_apple",
+          "components": {
+            "minecraft:custom_model_data": 773
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ldmc:effects/bronze_medal"
+  }
+}

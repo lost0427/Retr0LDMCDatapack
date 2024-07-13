@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "千万不要放在副手使用！",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "“我不喜欢头上有一只猫！\""
+                },
+                {
+                  "text": "据有关人士透露"
+                },
+                {
+                  "text": "其实ta就是不愿意承认猫猫可爱罢了"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "†升天†",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 776
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:infinity"
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

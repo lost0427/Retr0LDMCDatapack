@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "consume_enchanted_berries": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_carrot",
+          "components": {
+            "minecraft:custom_model_data": 777
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ldmc:effects/enchanted_berries"
+  }
+}

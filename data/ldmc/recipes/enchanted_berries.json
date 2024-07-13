@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "PEP",
+    "#P#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "id": "minecraft:golden_carrot",
+    "count": 1,
+    "components": {
+      "minecraft:enchantments": {
+        "minecraft:infinity": 1
+      },
+      "minecraft:item_name": "人造灵动甜浆果",
+      "minecraft:custom_model_data": 777,
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      },
+      "minecraft:lore": [
+        "{\"text\": \"千万不要放在副手食用！ \"}",
+        "{\"text\": \"人造的灵动甜浆果\"}",
+        "{\"text\": \"虽然不是天赐的 \"}",
+        "{\"text\": \"味道...好像还不错？ \"}"
+      ]
+    }
+  }
+}

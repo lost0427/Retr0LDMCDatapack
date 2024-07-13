@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "PEP",
+    "FPF"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:shulker_shell"
+    },
+    "P": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "E": {
+      "item": "minecraft:end_crystal"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "id": "minecraft:elytra",
+    "count": 1
+  }
+}
